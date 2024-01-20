@@ -130,7 +130,7 @@ h3{
 .Brand::-webkit-scrollbar-thumb:hover {
   background: #b30000; 
 }
-           */
+        
 h5{
   color: orangered;
 }
@@ -238,7 +238,7 @@ h2{
   height: 100%;
   object-fit: cover;
 }
-/* App.css */
+
 
 .Bottom {
   display: flex;
@@ -269,4 +269,3 @@ h2{
   cursor: pointer;
 }
 
-/* Adjust styles as needed */
