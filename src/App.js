@@ -38,7 +38,7 @@ function App() {
               <Link to="/products">Buy online</Link>
             </li>
             <li>
-              <Link to="/cart">Cart</Link>
+              <Link to="/cart"><box-icon name='cart-add' color='brown' ></box-icon></Link>
             </li>
           </ul>
         </nav>

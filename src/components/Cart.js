@@ -19,7 +19,7 @@ function Cart({ cartItems, clearCart }) {
             <p>{item.brand}</p>
             <p>Name: {item.name}</p>
             <p>Price: ₹ {item.price}</p>
-            <button onClick={() => clearCart(item.id)}>Clear</button>
+            <button onClick={() => clearCart(item.id)}><box-icon name='x' color='#ffffff' ></box-icon></button>
           </div>
         ))}
       </div>

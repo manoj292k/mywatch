@@ -23,7 +23,7 @@ function ProductList({ addToCart }) {
             <h5>{product.brand}</h5>
             <h6>{product.name} <span className='gender'>{product.gender}</span></h6>
             <p>₹{product.price}</p>
-            <button onClick={(event) => handleAddToCart(product, event)}>Add to Cart</button>
+            <button onClick={(event) => handleAddToCart(product, event)}><box-icon name='cart-add' color='#ffffff' ></box-icon></button>
 
           </div>
         ))}
