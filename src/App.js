@@ -22,10 +22,10 @@ function App() {
   return (
     <Router>
       <>
-        <h1 className='shopname'> Timezone</h1>
+        <h1 className='shopname'>Timezone</h1>
         <nav>
           <ul className='ultag'>
-            <li >
+            <li>
               <Link to="/">Home</Link>
             </li>
             <li>
@@ -38,25 +38,21 @@ function App() {
               <Link to="/products">Buy online</Link>
             </li>
             <li>
-              <Link to="/cart"><box-icon name='cart-add' color='brown' ></box-icon></Link>
+              <Link to="/cart">
+                <box-icon name='cart-add' color='brown'></box-icon>
+              </Link>
             </li>
           </ul>
         </nav>
 
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Home />} index />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
-          <Route
-            path="/products"
-            element={<ProductList addToCart={addToCart} />}
-          />
-          <Route
-            path="/cart"
-            element={<Cart cartItems={cartItems} clearCart={clearCart} />}
-          />
+          <Route path="/products" element={<ProductList addToCart={addToCart} />} />
+          <Route path="/cart" element={<Cart cartItems={cartItems} clearCart={clearCart} />} />
         </Routes>
-        
+   
         <div className='Bottom'>
           <div className='BottomBox'>
               <h3>Timezone.com</h3>
