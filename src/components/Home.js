@@ -38,6 +38,9 @@ function Home() {
   <span className="carousel-control-next-icon"></span>
 </button>
 </div>
+<h1 className='marqu'> <marquee>FREE DELIVERY     ----    SHOP TISSOT WATCHES   ----   BOOK YOUR WATCH FOR SERVICE   ----   FREE DELIVERY   ----   SHOP TISSOT WATCHES   ----   BOOK YOUR WATCH FOR SERVICE   ----   FREE DELIVERY   ----   SHOP TISSOT WATCHES   ----   BOOK YOUR WATCH FOR SERVICE   ----   FREE DELIVERY   ----   SHOP TISSOT WATCHES   ----   BOOK YOUR WATCH FOR SERVICE   ----   FREE DELIVERY   ----   SHOP TISSOT WATCHES   ----   BOOK YOUR WATCH FOR SERVICE   ----   FREE DELIVERY
+
+</marquee> </h1>
 
 <h3>Shop by category</h3>
 <div className='category'>
@@ -80,6 +83,7 @@ function Home() {
     <h5>Tissot</h5>
   </div>
 </div>
+
 <h3>Explore The Collection</h3>
 <div className='Box-pro'>
 <div className='Box-pro'>
@@ -103,6 +107,31 @@ function Home() {
   <div className='service'><h4 >WATCH SERVICE</h4>  <p>Get your watch service at our authorized service center</p> <br></br> <h5>Service request</h5></div>
   <div className='service'><h4 >SHOWROOMS</h4>  <p>Would you like to visit us? Locate the Timezone boutique that is closest to you. We are looking forward to welcoming you.</p> <br></br> <h5>FIND A SHOWROOM</h5> </div>
   <div className='service'><img src='https://ad.kapoorwatch.com/content/images/store/South-Ex-I-S.jpg' alt='imae'/> </div>
+</div>
+<h2 className='whyheading'>WHY SHOP WITH US?</h2>
+<div className='whyshop'>
+  <div > 
+    <h5>#1 Fair Pricing</h5>
+    <p>We have a direct relationship with the distributors of each brand, making it possible for us avoid traditional mark-ups and bring these brands to you at the best market rates.</p>
+  </div>
+  <div >
+     <h5>#2 Untouched Watches</h5>
+     <p>Being a 100% online store ensures that every item bought reaches you in pristine condition, not touched or tried on by customers, as it would be in a traditional retail outlet.</p>
+     </div>
+  <div > 
+    <h5>#3 Pan-India Delivery</h5>
+  <p>Quick dispatch of orders and delivery all over India within 3-4 days of purchase.</p>
+  </div>
+  <div >
+    <h5> #4 Authentic & International Warranty</h5>
+    <p>We are the authorised retailers for all the brands in our website, and every watch we sell comes with a minimum of 2 years international warranty.</p>
+    </div>
+</div>
+<div className='emmailbox'>
+  <h4>Exclusive E-Mail Content</h4>
+  <p>Receive our weekly written content, exclusively for our email subscribers.</p>
+  <div><input placeholder='Enter Your Email' type='email'></input><button> subscriber</button> </div>
+
 </div>
 
     </>

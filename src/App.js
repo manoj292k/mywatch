@@ -22,7 +22,23 @@ function App() {
   return (
     <Router>
       <>
-        <h1 className='shopname'>Timezone</h1>
+        <h1 className='shopname'>Timezone  <ul>
+          <li>
+          <Link to="/cart">
+          <box-icon name='heart-circle' color='#ee0d0d' ></box-icon>
+              </Link>
+          </li>
+          <li>
+          <Link to="/cart">
+          <box-icon name='shopping-bag' type='solid' color='#ee0d0d' ></box-icon>
+              </Link>
+          </li>
+          <li>
+          <Link to="/cart">
+          <box-icon name='user' color='#ee0d0d' ></box-icon>
+              </Link>
+          </li>
+          </ul> </h1>
         <nav>
           <ul className='ultag'>
             <li>

@@ -14,7 +14,8 @@ code {
     monospace;
 }
 .shopname{
-  text-align: center;
+  display: flex;
+  justify-content: space-around;
   color: rgb(105, 20, 20);
   font-family: "Kanit", sans-serif;
   font-weight: 700;
@@ -23,6 +24,14 @@ code {
   font-style: italic;  
   font-size: 70px;
 
+}
+h1 ul{
+  display: flex;
+  width: 300px;
+  justify-content: space-around;
+}
+h1 ul li{
+  list-style: none;
 }
 nav{
   
@@ -86,7 +95,7 @@ h3{
   
 }
 .category div img{
-  border-radius: 50%;
+  border-radius: 10px 100px 0px;
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -100,13 +109,13 @@ h3{
   display: flex;
   justify-content:flex-start;
   overflow-x: scroll;
-  gap: 15px;
+  gap: 35px;
   margin-left: 2.5%;
 
 }
 .Brandimg img{
-  width: 200px;
-  height: 250px;
+  width: 250px;
+  height: 300px;
   border-radius: 10px;
  }
 
@@ -138,7 +147,12 @@ h3{
 .Brand::-webkit-scrollbar-thumb:hover {
   background: #b30000; 
 }
-        
+  .marqu{
+    background-color: #b30000;
+    font-weight: lighter;
+    color: white;
+    padding: 10px 0px;
+  }    
 h5{
   color: orangered;
 }
@@ -148,7 +162,7 @@ h5{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  gap: 15px;
+  gap: 10px;
   padding: 30px 10px;
 }
 h2{
@@ -248,7 +262,14 @@ h2{
   height: 100%;
   object-fit: cover;
 }
-
+.service h4{
+  font-size: xx-large;
+}
+.service p{
+  text-align: center;
+  font-size: large;
+  padding: 0px 20px;
+}
 
 .Bottom {
   display: flex;
@@ -267,7 +288,9 @@ h2{
   color: gray;
   text-decoration: none;
   font-weight: lighter;
+  
 }
+
 
 .BottomBox h6 {
   font-size: 1rem;
@@ -279,7 +302,60 @@ h2{
   color: white;
   cursor: pointer;
 }
-
+.whyheading{
+  font-size: 50px;
+  padding: 20px 0px;
+  text-decoration: none;
+}
+.whyshop{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: max-content;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.whyshop div{
+  width: 45%;
+  height: max-content;
+  padding: 20px;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+}
+.whyshop div h5{
+  font-size: xx-large;
+}
+.whyshop div p{
+  font-size: large;
+}
+.emmailbox{
+  width: 100%;
+  height: 50vh;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-direction: column;
+  justify-content: center;
+}
+.emmailbox p{
+  color: black;
+  font-size: x-large;
+}
+.emmailbox h4{
+  color: black;
+  font-size: xx-large;
+}
+.emmailbox input{
+  width: 250px;
+  background-color: white;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  color: black;
+}
 @media only screen and (max-width : 700px) {
   nav ul{
     display: flex;
