@@ -62,7 +62,7 @@ function App() {
         </nav>
 
         <Routes>
-          <Route path="/" element={<Home />} index />
+          <Route path="/mywatch" element={<Home />} index />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/products" element={<ProductList addToCart={addToCart} />} />
